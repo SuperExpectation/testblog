@@ -1,0 +1,31 @@
+extends layout
+
+block content
+
+  form( class='form-horizontal' method='post')
+    fieldset
+      legend User login
+        div.control-group
+          label(class='control-label' for='username') User name
+          div.controls
+            input(type='text' class='input-xlarge' id='username' name='username')
+        div.control-group
+          label(class='control-label' for='username') Password
+          div.controls
+            input(type='password' class='input-xlarge' id='password' name='password')
+        div.form-actions
+          button(type='submit' class='btn btn-primary') Login
+          
+  input(type='checkbox'  name='Read')
+  label(class='checkbox-label' for='Read') Read
+  input(type='checkbox'  name='Read')
+  label(class='checkbox-label' for='Sport') Sport
+  input(type='checkbox'  name='Read')
+  label(class='checkbox-label' for='Music') Music
+  p
+  input(type='button'  name="submit_btn" class="submit_btn" value="submit")
+  input(type='button'  name="Select_All_btn" class="Select_All_btn" value="Select All")
+  //  
+  //<input type="button" name="btn" class="btn" value="提交">
+  //<input type="button" name="btn1" class="btn1" value="反选">
+ 

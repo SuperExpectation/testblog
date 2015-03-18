@@ -1,0 +1,15 @@
+.head{
+  margin:0 auto;  
+  width:808px;
+  position: relative;z-index: 2;
+  background: black;
+  
+  height: 25px;
+}
+.head span {
+  display:inline;
+  float: left;
+  height: 25px;
+}
+
+.head-search{display:inline; margin-left: 10px; }
